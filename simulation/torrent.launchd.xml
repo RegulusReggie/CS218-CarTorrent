@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- debug config -->
+<launch>
+	<copy file="torrent.net.xml" />
+	<copy file="torrent.rou.xml" />
+	<copy file="torrent.settings.xml" />
+	<copy file="torrent.sumo.cfg" type="config" />
+</launch>
+

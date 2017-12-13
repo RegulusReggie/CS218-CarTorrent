@@ -1,0 +1,159 @@
+version 2
+run WithoutChannelSwitching-0-20171121-00:27:08-8744
+attr configname WithoutChannelSwitching
+attr datetime 20171121-00:27:08
+attr experiment WithoutChannelSwitching
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network CarTorrent.src.CarTorrentScenario
+attr processid 8744
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.debug false
+param **.coreDebug false
+param *.playgroundSizeX 1000m
+param *.playgroundSizeY 1000m
+param *.playgroundSizeZ 50m
+param *.annotations.draw true
+param *.manager.updateInterval 1s
+param *.manager.host "\"localhost\""
+param *.manager.port 9999
+param *.manager.autoShutdown true
+param *.manager.launchConfig "xmldoc(\"torrent.launchd.xml\")"
+param *.rsu[0].mobility.x 800
+param *.rsu[0].mobility.y 600
+param *.rsu[0].mobility.z 5
+param *.rsu[*].applType "\"CarTorrentRSU\""
+param *.rsu[*].appl.headerLength "80 bit"
+param *.rsu[*].appl.sendBeacons true
+param *.rsu[*].appl.dataOnSch false
+param *.rsu[*].appl.beaconInterval 1s
+param *.rsu[*].appl.beaconUserPriority 7
+param *.rsu[*].appl.dataUserPriority 5
+param *.connectionManager.sendDirect true
+param *.connectionManager.maxInterfDist 2600m
+param *.connectionManager.drawMaxIntfDist false
+param *.**.nic.mac1609_4.useServiceChannel false
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.bitrate 6Mbps
+param *.**.nic.phy80211p.sensitivity -89dBm
+param *.**.nic.phy80211p.useThermalNoise true
+param *.**.nic.phy80211p.thermalNoise -110dBm
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.antenna "xmldoc(\"antenna.xml\", \"/root/Antenna[@id='monopole']\")"
+param *.node[*].applType "\"CarApp\""
+param *.node[*].appl.headerLength "80 bit"
+param *.node[*].appl.sendBeacons true
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].veinsmobilityType.debug true
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 1.895
+param *.node[*0].veinsmobility.accidentCount 0
+param *.node[*0].veinsmobility.accidentStart 75s
+param *.node[*0].veinsmobility.accidentDuration 50s
+
+scalar CarTorrentScenario.node[0].appl generatedWSMs 0
+scalar CarTorrentScenario.node[0].appl receivedWSMs 0
+scalar CarTorrentScenario.node[0].appl generatedBSMs 6
+scalar CarTorrentScenario.node[0].appl receivedBSMs 3
+scalar CarTorrentScenario.node[0].appl generatedWSAs 0
+scalar CarTorrentScenario.node[0].appl receivedWSAs 0
+scalar CarTorrentScenario.node[0].nic.phy80211p busyTime 6.833970612451e-005
+scalar CarTorrentScenario.node[0].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar CarTorrentScenario.node[0].nic.mac1609_4 ReceivedBroadcasts 3
+scalar CarTorrentScenario.node[0].nic.mac1609_4 SentPackets 6
+scalar CarTorrentScenario.node[0].nic.mac1609_4 SNIRLostPackets 0
+scalar CarTorrentScenario.node[0].nic.mac1609_4 RXTXLostPackets 0
+scalar CarTorrentScenario.node[0].nic.mac1609_4 TotalLostPackets 0
+scalar CarTorrentScenario.node[0].nic.mac1609_4 DroppedPacketsInMac 0
+scalar CarTorrentScenario.node[0].nic.mac1609_4 TooLittleTime 0
+scalar CarTorrentScenario.node[0].nic.mac1609_4 TimesIntoBackoff 6
+scalar CarTorrentScenario.node[0].nic.mac1609_4 SlotsBackoff 9
+scalar CarTorrentScenario.node[0].nic.mac1609_4 NumInternalContention 0
+scalar CarTorrentScenario.node[0].nic.mac1609_4 totalBusyTime 0.000942
+scalar CarTorrentScenario.node[0].veinsmobility startTime 1
+scalar CarTorrentScenario.node[0].veinsmobility totalTime 6
+scalar CarTorrentScenario.node[0].veinsmobility stopTime 7.087237180126
+scalar CarTorrentScenario.node[0].veinsmobility minSpeed 1
+scalar CarTorrentScenario.node[0].veinsmobility maxSpeed 6
+scalar CarTorrentScenario.node[0].veinsmobility totalDistance 21
+scalar CarTorrentScenario.node[0].veinsmobility totalCO2Emission 11.3754467072
+scalar CarTorrentScenario.node[2].appl generatedWSMs 0
+scalar CarTorrentScenario.node[2].appl receivedWSMs 0
+scalar CarTorrentScenario.node[2].appl generatedBSMs 0
+scalar CarTorrentScenario.node[2].appl receivedBSMs 0
+scalar CarTorrentScenario.node[2].appl generatedWSAs 0
+scalar CarTorrentScenario.node[2].appl receivedWSAs 0
+scalar CarTorrentScenario.node[2].nic.phy80211p busyTime 0.0011921522434562
+scalar CarTorrentScenario.node[2].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 ReceivedBroadcasts 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 SentPackets 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 SNIRLostPackets 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 RXTXLostPackets 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 TotalLostPackets 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 DroppedPacketsInMac 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 TooLittleTime 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 TimesIntoBackoff 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 SlotsBackoff 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 NumInternalContention 0
+scalar CarTorrentScenario.node[2].nic.mac1609_4 totalBusyTime 0
+scalar CarTorrentScenario.node[2].veinsmobility startTime 7
+scalar CarTorrentScenario.node[2].veinsmobility totalTime 0
+scalar CarTorrentScenario.node[2].veinsmobility stopTime 7.087237180126
+scalar CarTorrentScenario.node[2].veinsmobility totalDistance 0
+scalar CarTorrentScenario.node[2].veinsmobility totalCO2Emission 0
+scalar CarTorrentScenario.node[1].appl generatedWSMs 0
+scalar CarTorrentScenario.node[1].appl receivedWSMs 0
+scalar CarTorrentScenario.node[1].appl generatedBSMs 4
+scalar CarTorrentScenario.node[1].appl receivedBSMs 3
+scalar CarTorrentScenario.node[1].appl generatedWSAs 0
+scalar CarTorrentScenario.node[1].appl receivedWSAs 0
+scalar CarTorrentScenario.node[1].nic.phy80211p busyTime 0.00010106123429988
+scalar CarTorrentScenario.node[1].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar CarTorrentScenario.node[1].nic.mac1609_4 ReceivedBroadcasts 3
+scalar CarTorrentScenario.node[1].nic.mac1609_4 SentPackets 4
+scalar CarTorrentScenario.node[1].nic.mac1609_4 SNIRLostPackets 0
+scalar CarTorrentScenario.node[1].nic.mac1609_4 RXTXLostPackets 0
+scalar CarTorrentScenario.node[1].nic.mac1609_4 TotalLostPackets 0
+scalar CarTorrentScenario.node[1].nic.mac1609_4 DroppedPacketsInMac 0
+scalar CarTorrentScenario.node[1].nic.mac1609_4 TooLittleTime 0
+scalar CarTorrentScenario.node[1].nic.mac1609_4 TimesIntoBackoff 3
+scalar CarTorrentScenario.node[1].nic.mac1609_4 SlotsBackoff 4
+scalar CarTorrentScenario.node[1].nic.mac1609_4 NumInternalContention 0
+scalar CarTorrentScenario.node[1].nic.mac1609_4 totalBusyTime 0.000627
+scalar CarTorrentScenario.node[1].veinsmobility startTime 4
+scalar CarTorrentScenario.node[1].veinsmobility totalTime 3
+scalar CarTorrentScenario.node[1].veinsmobility stopTime 7.087237180126
+scalar CarTorrentScenario.node[1].veinsmobility minSpeed 1
+scalar CarTorrentScenario.node[1].veinsmobility maxSpeed 3
+scalar CarTorrentScenario.node[1].veinsmobility totalDistance 6
+scalar CarTorrentScenario.node[1].veinsmobility totalCO2Emission 3.6694332608
+scalar CarTorrentScenario.rsu[0].appl generatedWSMs 3
+scalar CarTorrentScenario.rsu[0].appl receivedWSMs 0
+scalar CarTorrentScenario.rsu[0].appl generatedBSMs 7
+scalar CarTorrentScenario.rsu[0].appl receivedBSMs 0
+scalar CarTorrentScenario.rsu[0].appl generatedWSAs 3
+scalar CarTorrentScenario.rsu[0].appl receivedWSAs 0
+scalar CarTorrentScenario.rsu[0].nic.phy80211p busyTime 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 ReceivedUnicastPackets 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 ReceivedBroadcasts 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 SentPackets 13
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 SNIRLostPackets 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 RXTXLostPackets 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 TotalLostPackets 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 DroppedPacketsInMac 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 TooLittleTime 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 TimesIntoBackoff 13
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 SlotsBackoff 31
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 NumInternalContention 0
+scalar CarTorrentScenario.rsu[0].nic.mac1609_4 totalBusyTime 0.001629
+
